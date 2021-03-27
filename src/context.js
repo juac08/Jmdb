@@ -27,7 +27,6 @@ const AppProvider = ({ children }) => {
   useEffect(() => {
     fetchMovies();
   },[query]);
-  console.log(movies);
   return (
     <AppContext.Provider
       value={{

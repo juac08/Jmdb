@@ -319,10 +319,8 @@ footer a {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     place-items: center;
-    flex-flow: column;
     position: absolute;
     padding: 2rem;
     width: 100%;
